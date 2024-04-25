@@ -10,15 +10,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@sanity/icons": "^2.11.8",
+    "@sanity/image-url": "^1.0.2",
+    "@sanity/ui": "^2.1.4",
+    "@sanity/vision": "^3.39.0",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@tanstack/react-query": "^5.25.0",
     "@trpc/client": "next",
     "@trpc/react-query": "next",
     "@trpc/server": "next",
     "next": "^14.2.1",
+    "next-sanity": "^7.1.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "sanity": "^3.39.0",
     "server-only": "^0.0.1",
+    "styled-components": "^6.1.8",
     "superjson": "^2.2.1",
     "zod": "^3.23.3"
   },

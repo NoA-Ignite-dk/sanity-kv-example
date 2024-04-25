@@ -1,3 +1,22 @@
+# Sanity KV example (redirection)
+
+This is a simple example of how to use Sanity as a key-value store for redirections.
+
+## Possible use cases:
+- Redirecting old URLs to new ones
+- Feature flags with dynamic values
+- Just a simple key-value store
+- etc.
+
+## URLs:
+- [Sanity Studio](http://localhost:3000/studio)
+- [/need-to-be-redirected](http://localhost:3000/need-to-be-redirected)
+- [/redirected](http://localhost:3000/redirected)
+- [/sanity/basic](http://localhost:3000/api/sanity/basic?key=/need-to-be-redirected)
+- [/sanity/edge](http://localhost:3000/api/sanity/edge?key=/need-to-be-redirected)
+- [/sanity/dynamic](http://localhost:3000/api/sanity/dynamic?key=/need-to-be-redirected)
+
+--- original README.md below ---
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
