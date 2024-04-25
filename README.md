@@ -12,9 +12,9 @@ This is a simple example of how to use Sanity as a key-value store for redirecti
 - [Sanity Studio](http://localhost:3000/studio)
 - [/need-to-be-redirected](http://localhost:3000/need-to-be-redirected)
 - [/redirected](http://localhost:3000/redirected)
-- [/sanity/basic](http://localhost:3000/api/sanity/basic?key=/need-to-be-redirected)
-- [/sanity/edge](http://localhost:3000/api/sanity/edge?key=/need-to-be-redirected)
-- [/sanity/dynamic](http://localhost:3000/api/sanity/dynamic?key=/need-to-be-redirected)
+- [/api/sanity/basic](http://localhost:3000/api/sanity/basic?key=/need-to-be-redirected)
+- [/api/sanity/edge](http://localhost:3000/api/sanity/edge?key=/need-to-be-redirected)
+- [/api/sanity/dynamic](http://localhost:3000/api/sanity/dynamic?key=/need-to-be-redirected)
 > Reason for basic/edge/dynamic is to compare the time and caching. It won't make sense to check on localhost env.
 
 --- original README.md below ---
