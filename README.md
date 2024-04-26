@@ -9,12 +9,13 @@ This is a simple example of how to use Sanity as a key-value store for redirecti
 - etc.
 
 ## URLs:
-- [Sanity Studio](http://localhost:3000/studio)
-- [/need-to-be-redirected](http://localhost:3000/need-to-be-redirected)
-- [/redirected](http://localhost:3000/redirected)
-- [/api/sanity/basic](http://localhost:3000/api/sanity/basic?key=/need-to-be-redirected)
-- [/api/sanity/edge](http://localhost:3000/api/sanity/edge?key=/need-to-be-redirected)
-- [/api/sanity/dynamic](http://localhost:3000/api/sanity/dynamic?key=/need-to-be-redirected)
+- [Deployed on Vercel](https://sanity-kv-example.vercel.app/)
+- [Sanity Studio](https://sanity-kv-example.vercel.app/studio)
+- [/need-to-be-redirected](https://sanity-kv-example.vercel.app/need-to-be-redirected)
+- [/redirected](https://sanity-kv-example.vercel.app/redirected)
+- [/api/sanity/basic](https://sanity-kv-example.vercel.app/api/sanity/basic?key=/need-to-be-redirected)
+- [/api/sanity/edge](https://sanity-kv-example.vercel.app/api/sanity/edge?key=/need-to-be-redirected)
+- [/api/sanity/dynamic](https://sanity-kv-example.vercel.app/api/sanity/dynamic?key=/need-to-be-redirected)
 > Reason for basic/edge/dynamic is to compare the time and caching. It won't make sense to check on localhost env.
 > 
 > *Browser cache - do hard refresh*
